@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth hover:scroll-auto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ottica Rubele</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .hero-img {
+            background-image: url();
+        }
+    </style>
+</head>
+<body class="bg-color-ottica font-serif text-color-grayOttica scroll-smooth hover:scroll-auto">
+    <header class="fixed bg-color-ottica w-full z-10">
+        <nav class="p-5 flex flex-col sm:flex-row sm:justify-center">
+            <div class="sm:hidden cursor-pointer text-end">
+                <i class="fa-solid fa-bars text-xl duration-500 ease-in-out" id="bar-menu"></i>
+            </div>
+            <ul class="hidden text-center sm:flex gap-7 duration-500 ease-in-out" id="items-menu">
+                <li class="text-color-storia item-menu font-semibold underline underline-offset-2 opcion-menu"><a href="#nostraStoria">La nostra storia</a></li>
+                <li class="text-color-grayOttica item-menu font-semibold opcion-menu"><a href="#ottica">Ottica</a></li>
+                <li class="text-color-grayOttica item-menu font-semibold opcion-menu"><a href="#visite">Visite oculistiche</a></li>
+                <li class="btn btn-gray btn-hover opcion-menu"><a href="#">Vieni a trovarci</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class='bg-fondoHero flex center sm:justify-end relative'>
+            <div class="absolute text-center sm:text-left sm:mr-40 p-2">
+                <h1 class="title font-sans">Ottica <br/> Rubele</h1>
+                <p class="text-white text-xl font-extralight mt-2">Occhiali come <br/> non ne hai mai visti</p>
+            </div>
+        </div>
+        <div class="container mx-auto w-full flex gap-5 flex-col sm:flex-row" id="nostraStoria">
+            <section class="flex-1 m-auto" >
+                <figure class="p-5">
+                    <img src="./assets/img/national-cancer-institute-UK0lzD16BxI-unsplash.png" class="h-full object-cover" alt="" name="">
+                </figure>
+            </section>
+            <article class="flex-1 m-auto">
+                <div class="p-5">
+                    <p class="upperCase">passione mai vista prima</p>
+                    <h3 class="sub-title-primary mt-1">Una storia che merita di essere raccontata</h3>
+                    <p class="mt-5">Presente sul territorio da più di 40 anni, la passione e dedizione verso il nostro lavoro ci ha permesso di nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="w-full bg-color-grayOttica text-color-ottica overflow-hidden flex flex-col" id="ottica">
+            <section class="container mx-auto flex-1 flex gap-5 center mt-16 flex-col sm:flex-row" >
+                <article class="flex-1 p-5">
+                    <p class="upperCase">tornerai per forza</p>
+                    <h3 class="sub-title-primary">La nostra Ottica</h3>
+                    <p class="mt-5">Con più di 37 famosi brand e con 12 marchi provenienti da Ottiche artigianali del territitorio siamo una delle realtà locali più fornite. I nostri professionisti ti aiuteranno a trovare la montattura più adatta alle tue esigneze sapendo accontentare anche gli occhi più attenti.</p>
+                </article>
+                <figure class="w-96 p-5">
+                        <img src="./assets/img/annisa-ica-2hrKrytSI1Q-unsplash.png" alt="" title="" class="w-full object-contain">
+                </figure>
+            </section>
+            <section class="container mx-auto flex-1 mt-20">
+                <h6 class="sub-title-secondary text-center">Tra i marchi più famosi troverai</h6>
+                <div class="flex flex-wrap gap-14 center mt-10 mb-10">
+                    <figure>
+                        <img src="./assets/svg/Vector-3.svg" alt="" title="">
+                    </figure>
+                    <figure>
+                        <img src="./assets/svg/Vector-4.svg" alt="" title="">
+                    </figure>
+                    <figure>
+                        <img src="./assets/svg/Vector.svg" alt="" title="">
+                    </figure>
+                    <figure>
+                        <img src="./assets/svg/Vector-2.svg" alt="" title="">
+                    </figure>
+                </div>
+            </section>
+        </div>
+
+        <div class="container mx-auto flex gap-5 flex-col" id="visite">
+            <figure class="flex-1 m-auto mt-14">
+                <img src="./assets/img/david-travis-aVvZJC0ynBQ-unsplash 1.png" alt="" title="" class="">
+            </figure>
+            <article class="flex-1 m-auto p-5">
+                <p class="upperCase">CI prenderemo cura dei tuoi occhi</p>
+                <h3 class="sub-title-primary mt-2">Una vista a 360°</h3>
+                <p class="mt-5">Oculisti pronti a nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                <button class="btn btn-gray btn-hover mt-5">Vieni a trovarci</button>
+            </article>
+        </div>
+    </main>
+
+    <footer class="bg-color-grayOttica text-color-ottica mt-20 text-sm">
+        <div class="container mx-auto flex gap-10 flex-col text-center sm:text-left sm:flex-row sm:justify-around pt-5">
+            <ul class="flex flex-col gap-3 font-light">
+                <li class="text-lg font-bold">Ottica Rubele</li>
+                <li>Storia </li>
+                <li>Ottica </li>
+                <li>Visite oculistiche </li>
+            </ul>
+            <ul class="flex flex-col gap-3 font-light">
+                <li class="font-bold">Orari</li>
+                <li>Lunedì-Venerdì <br/> 9:30-12:30</li>
+                <li>Sabato <br/> 9:30-17:30</li>
+            </ul>
+            <ul class="flex flex-col gap-3 font-light">
+                <li class="font-bold">Indicazioni</li>
+                <li>Via Corsini 19c, 37199 Verona</li>
+                <li class="underline underline-offset-2 text-hover"><a href="https://goo.gl/maps/vvHWfKbhjzE8VXyG8" target="_blank" class="cursor-pointer">Apri Google Maps →</a></li>
+            </ul>
+        </div>
+        <div class="container mx-auto mt-16 pb-5">
+            <p class="text-center text-xs font-extralight">© Ottica Ruble • C.F. e P. IVA 00488190227 • Credits UI Michael Martinelli</p>
+        </div>
+    </footer>
+
+
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/889cbcbdf4.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
